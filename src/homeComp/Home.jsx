@@ -3,7 +3,7 @@ import { FiSearch } from 'react-icons/fi'
 const Home = () => {
   return (
     <>
-    <section className=' w-[90%] mx-auto' >
+    <section className=' w-[90%] mt-10 mx-auto' >
         <div className="search">
             <h2 className='text-3xl font-medium ' >Technical Interview Resources</h2>
             <h4 className='text-lg font-[400] opacity-65 ' >Find all the technical interview esources here</h4>

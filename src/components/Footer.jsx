@@ -9,14 +9,18 @@ const Footer = () => {
     <footer className="bg-[#1d1a1a]  text-white py-8">
       <div className="md:w-[90%] px-4 md:mx-auto">
         {/* Header Section */}
-        <h2 className='text-3xl' >
-              
-              Int
-             
-              <span className='relative bottom-0.5 ' >e</span><span className='absolute left-78 '>_</span>
-              rvu
-              <span className='rotate-180 inline-block relative -bottom-1.5 ' >e</span> <span className='absolute left-93 '>_</span>
-          </h2>
+        <h2 className="text-3xl relative inline-block">
+  Int
+  <span className="relative inline-block">
+    e
+    <span className="block text-center w-full text-slate-700 -mt-8">_</span>
+  </span>
+  rvu
+  <span className="relative inline-block">
+    <span className="inline-block transform rotate-180">e</span>
+    <span className="block text-center w-full text-slate-700 -mt-9">_</span>
+  </span>
+</h2>
 
         <div className="flex flex-col md:flex-row md:justify-between">
           {/* Social Links and Newsletter Section */}
@@ -43,7 +47,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 md:flex md:gap-8">
             <div>
               <h4 className="font-medium text-lg mb-2">Company</h4>
-              <ul className="space-y-2">
+              <ul className="space-y-2 opacity-70 hover:opacity-100 ">
                 <li className="hover:underline cursor-pointer">So gehts</li>
                 <li className="hover:underline cursor-pointer">Enfahrung</li>
                 <li className="hover:underline cursor-pointer">Aligner</li>
@@ -54,7 +58,7 @@ const Footer = () => {
 
             <div>
               <h4 className="font-medium text-lg mb-2">Resources</h4>
-              <ul className="space-y-2">
+              <ul className="space-y-2 opacity-70 hover:opacity-100 ">
                 <li className="hover:underline cursor-pointer">Blog</li>
                 <li className="hover:underline cursor-pointer">FAQ</li>
                 <li className="hover:underline cursor-pointer">Lift Media</li>
@@ -65,7 +69,7 @@ const Footer = () => {
 
             <div>
               <h4 className="font-medium text-lg mb-2">Product</h4>
-              <ul className="space-y-2">
+              <ul className="space-y-2 opacity-70 hover:opacity-100 ">
                 <li className="hover:underline cursor-pointer">Gratis Termin</li>
                 <li className="hover:underline cursor-pointer">Freunde einladen</li>
                 <li className="hover:underline cursor-pointer">Patienteninforma</li>

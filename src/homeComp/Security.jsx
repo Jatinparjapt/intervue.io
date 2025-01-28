@@ -37,15 +37,21 @@ const Security = () => {
                 </div></div>
                <div className='col-span-1 bg-white shadow-2xl hover:shadow-slate-600 rounded-2xl  ' > <div className="p-3 justify-center mx-3 flex flex-col items-start">
                     <div className=""><BsFillRocketTakeoffFill className='text-3xl' /></div>
+                    <div className="flex w-full place-content-between">
                     <h5 className='flex  items-end' >Intervue for Startups 
-                     <FaArrowRightLong className='text-2xl   mx-3 ' />  
                      </h5>
+                     <FaArrowRightLong className='text-2xl  ' />
+                     </div>  
                 </div></div>
                <div className='col-span-1 bg-white shadow-2xl hover:shadow-slate-600 rounded-2xl  ' ><div className="p-3 mx-3 flex justify-center flex-col items-start">
                     <div className=""><BiGlobe className='text-3xl' /></div>
-                    <h5 className='flex items-end' >Intervue for Enterprises 
-                     <FaArrowRightLong className='text-2xl ' />  
+                    <div className='flex w-full place-content-between' >
+                    <h5 className='   ' >Intervue for Enterprises 
+               
                     </h5>
+                    <FaArrowRightLong className=' text-2xl ' /> 
+                    </div>
+                   
                 </div> </div>
             </div>
         </main>
