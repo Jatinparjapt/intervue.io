@@ -10,7 +10,7 @@ const Header = () => {
   }
   return (
     <>
-    <header className=' w-[90%] mx-auto xl:text-xl cursor-pointer ' >
+    <header className=' w-[90%] mt-2 mx-auto xl:text-xl cursor-pointer ' >
         <nav className={` text-slate-700 w-full flex  items-center place-content-between `}>
         <h2 className="text-3xl relative inline-block">
   Int

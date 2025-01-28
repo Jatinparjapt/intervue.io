@@ -6,7 +6,7 @@ import { ImFacebook2 } from "react-icons/im";
 import { IoLogoLinkedin } from "react-icons/io5";
 const Footer = () => {
   return (
-    <footer className="bg-[#1d1a1a]  text-white py-8">
+    <footer className="bg-[#1d1a1a] cursor-pointer  text-white py-8">
       <div className="md:w-[90%] px-4 md:mx-auto">
         {/* Header Section */}
         <h2 className="text-3xl relative inline-block">
